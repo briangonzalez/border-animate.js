@@ -19,7 +19,7 @@ Create an element or elements on your page, with the `data-border-animate` attri
 
 Once the document is ready, select the element(s) you want to have a border animation, then call `run` on the selection:
 
-### Using Vanilla JS:
+__Using Vanilla JS:__
 
 ```javascript
 document.addEventListener('DOMContentLoaded', function(){
@@ -29,7 +29,7 @@ document.addEventListener('DOMContentLoaded', function(){
 });
 ````
 
-### Or, using jQuery:
+__Or, using jQuery:__
 
 ```javascript
 $(document).ready(function(){
