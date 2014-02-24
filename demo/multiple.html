@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Multiple</title>
+  <script type="text/javascript" src='../src/border-animate.js'></script>
+  <script type="text/javascript">
+    document.addEventListener('DOMContentLoaded', function(){
+      var selection = document.querySelectorAll( '.animate-me' );
+      var b = new BorderAnimate();
+      b.run(selection, function(el){
+        el.style.background = '#f6f6f6'
+      });
+    });
+  </script>
+
+  <style type="text/css">
+    [data-border-animate]{
+      width: 200px;
+      height: 200px;
+      margin: 20px;
+      border: 1px solid #eee;
+      float: left;
+    }
+  </style>
+
+</head>
+<body>
+
+  <div class='animate-me' data-border-animate="1px solid blue, 1000, 1000, left|1px solid blue, 1000, 0|1px solid blue, 1000, 1000, right|1px solid blue, 1000, 0"></div>
+  <div class='animate-me' data-border-animate="1px solid blue, 1000, 1000, left|1px solid blue, 1000, 0|1px solid blue, 1000, 1000, right|1px solid blue, 1000, 0"></div>
+  <div class='animate-me' data-border-animate="1px solid blue, 1000, 1000, left|1px solid blue, 1000, 0|1px solid blue, 1000, 1000, right|1px solid blue, 1000, 0"></div>
+  <div class='animate-me' data-border-animate="1px solid blue, 1000, 1000, left|1px solid blue, 1000, 0|1px solid blue, 1000, 1000, right|1px solid blue, 1000, 0"></div>
+  <div class='animate-me' data-border-animate="1px solid blue, 1000, 1000, left|1px solid blue, 1000, 0|1px solid blue, 1000, 1000, right|1px solid blue, 1000, 0"></div>
+  <div class='animate-me' data-border-animate="1px solid blue, 1000, 1000, left|1px solid blue, 1000, 0|1px solid blue, 1000, 1000, right|1px solid blue, 1000, 0"></div>
+  <div class='animate-me' data-border-animate="1px solid blue, 1000, 1000, left|1px solid blue, 1000, 0|1px solid blue, 1000, 1000, right|1px solid blue, 1000, 0"></div>
+  <div class='animate-me' data-border-animate="1px solid blue, 1000, 1000, left|1px solid blue, 1000, 0|1px solid blue, 1000, 1000, right|1px solid blue, 1000, 0"></div>
+  <div class='animate-me' data-border-animate="1px solid blue, 1000, 1000, left|1px solid blue, 1000, 0|1px solid blue, 1000, 1000, right|1px solid blue, 1000, 0"></div>
+  <div class='animate-me' data-border-animate="1px solid blue, 1000, 1000, left|1px solid blue, 1000, 0|1px solid blue, 1000, 1000, right|1px solid blue, 1000, 0"></div>
+  <div class='animate-me' data-border-animate="1px solid blue, 1000, 1000, left|1px solid blue, 1000, 0|1px solid blue, 1000, 1000, right|1px solid blue, 1000, 0"></div>
+  <div class='animate-me' data-border-animate="1px solid blue, 1000, 1000, left|1px solid blue, 1000, 0|1px solid blue, 1000, 1000, right|1px solid blue, 1000, 0"></div>
+  <div class='animate-me' data-border-animate="1px solid blue, 1000, 1000, left|1px solid blue, 1000, 0|1px solid blue, 1000, 1000, right|1px solid blue, 1000, 0"></div>
+  <div class='animate-me' data-border-animate="1px solid blue, 1000, 1000, left|1px solid blue, 1000, 0|1px solid blue, 1000, 1000, right|1px solid blue, 1000, 0"></div>
+  <div class='animate-me' data-border-animate="1px solid blue, 1000, 1000, left|1px solid blue, 1000, 0|1px solid blue, 1000, 1000, right|1px solid blue, 1000, 0"></div>
+
+</body>
+</html>

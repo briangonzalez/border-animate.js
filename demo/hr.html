@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>HR</title>
+  <script type="text/javascript" src='../src/border-animate.js'></script>
+  <script type="text/javascript">
+    document.addEventListener('DOMContentLoaded', function(){
+
+      var selection = document.querySelectorAll( '.animate-me' );
+
+      var b = new BorderAnimate();
+      b.run(selection, function(){
+        console.log('Animation complete.');
+      });
+    
+    });
+  </script>
+
+  <style type="text/css">
+    body{
+      margin: 0;
+      /*padding: 100px;*/
+    }
+
+    [data-border-animate]{
+      width: 100%;
+      border-width: 0;
+      border-color: transparent;
+      outline: none;
+      background: none;
+      margin-bottom: 100px;
+    }
+  </style>
+
+</head>
+<body>
+
+  <hr class='animate-me' data-border-animate="1px solid blue, 1000, 0, left">
+  <hr class='animate-me' data-border-animate="1px solid blue, 1000, 0, right">
+  <hr class='animate-me' data-border-animate="1px solid blue, 1000, 0, left">
+  <hr class='animate-me' data-border-animate="1px solid blue, 1000, 0, right">
+  <hr class='animate-me' data-border-animate="1px solid blue, 1000, 0, left">
+  <hr class='animate-me' data-border-animate="1px solid blue, 1000, 0, right">
+  <hr class='animate-me' data-border-animate="1px solid blue, 1000, 0, left">
+  <hr class='animate-me' data-border-animate="1px solid blue, 1000, 0, right">
+  <hr class='animate-me' data-border-animate="1px solid blue, 1000, 0, left">
+  <hr class='animate-me' data-border-animate="1px solid blue, 1000, 0, right">
+  <hr class='animate-me' data-border-animate="1px solid blue, 1000, 0, left">
+  <hr class='animate-me' data-border-animate="1px solid blue, 1000, 0, right">
+  <hr class='animate-me' data-border-animate="1px solid blue, 1000, 0, left">
+  <hr class='animate-me' data-border-animate="1px solid blue, 1000, 0, right">
+
+
+</body>
+</html>

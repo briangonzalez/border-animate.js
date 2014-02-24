@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Top and Bottom</title>
+  <script type="text/javascript" src='../src/border-animate.js'></script>
+  <script type="text/javascript">
+    document.addEventListener('DOMContentLoaded', function(){
+      var selection = document.querySelectorAll( '.animate-me' );
+      var b = new BorderAnimate();
+      b.run(selection);
+    });
+  </script>
+
+  <style type="text/css">
+    [data-border-animate]{
+      width: 300px;
+      height: 300px;
+      border: 1px solid #eee;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      margin-left: -150px;
+      margin-top: -150px;
+    }
+  </style>
+
+</head>
+<body>
+  <div class='animate-me' data-border-animate="1px solid blue, 1000, 0, left|none|1px solid blue, 1000, 0, right|none"></div>
+</body>
+</html>
