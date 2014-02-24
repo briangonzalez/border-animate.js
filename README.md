@@ -11,7 +11,7 @@ The algorithm is simple: (1) The bounding rect of the selected element is found 
 
 How to use
 ----------
-Create an element or elements on your page, with the `data-border-animate` attribute:
+Create an element or elements on your page, with the `data-border-animate` attribute. Define your borders in order from `top|right|bottom|left`:
 
 ```html
 <div class='animate-me' data-border-animate="1px solid blue, 1000, 0, left|1px solid blue, 1000, 0|1px solid blue, 1000, 0, right|1px solid blue, 1000, 0"></div>
