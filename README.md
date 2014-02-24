@@ -1,7 +1,6 @@
 border-animate.js 
 =================
-Effortless border animations.
-
+Effortless border-length animations.
 
 Demo
 ----
