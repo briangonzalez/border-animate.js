@@ -7,7 +7,7 @@ Demo
 ----
 The algorithm is simple: (1) The bounding rect of the selected element is found (2) "faux borders" are created using divs (3) width/height of said divs are animated (4) upon animation completion, real borders are applied to element and faux borders removed from DOM.
 
-<img src="https://raw2.github.com/briangonzalez/border-animate.js/master/misc/border-animate.gif" width='300px'>
+<img src="https://raw2.github.com/briangonzalez/border-animate.js/master/misc/border-animate.gif" width='400px'>
 
 How to use
 ----------
@@ -67,7 +67,7 @@ Would translate to:
 
 The result:
 
-<img src="https://raw.github.com/briangonzalez/jquery.adaptive-background.js/master/misc/border-animate-2.gif">
+<img src="https://raw2.github.com/briangonzalez/border-animate.js/master/misc/border-animate-2.gif" width='400px'>
 
 
 Author
